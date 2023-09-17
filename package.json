@@ -1,0 +1,31 @@
+{
+  "name": "hw-3-12",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Loskutov2.github.io/hw-3-12",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-3-12/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loskutov2/hw-3-12.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loskutov2/hw-3-12/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
